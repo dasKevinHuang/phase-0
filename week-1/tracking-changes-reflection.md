@@ -1,10 +1,14 @@
 ###How does tracking and adding changes make developers' lives easier?
 
-Tracking and adding changes makes working on code easier for developers by making it convenient to save any changes made to work and allowing for changes to be undone	
-What is a commit?
-A commit is the submission of any change or changes, along with comments, timestamp, and the change(s) itself, to git. Commits can be thought of as a single collection of changes to anything in the repository - creating a new file, new folder, or renaming a file - if these actions are submitted together, they will live in the same commit in git automatically. 
+Tracking and adding changes makes working on code easier for developers by making it convenient to save any changes made to work and allowing for changes to be undone at any time. This process also makes it much easier for developers to review each others code and provide feedback to ensure that only working code is merged into the master repo.
 
-In addition to this, a commit can be reviewed in git and rolled back if necessary. If a commit is reverted, all changes that were in the commit are undone. Commits in version control make it easy for developers to review and understand work that was done.
+###What is a commit?
+
+A commit is the submission of any change or changes, along with comments, timestamp, and the change(s) itself, to git. Commits can be thought of as a single collection of changes to anything in the repository - creating a new file, new folder, or renaming a file. If these actions are submitted together, they will live in the same commit in the git repo automatically. 
+
+You can also think of a commit as a save point for the collection of changes.
+
+In addition to this, a commit can be reviewed in github and rolled back if necessary. If a commit is reverted, all changes that were in the commit are undone. Commits in version control make it easy for developers to review and understand work that was done.
 
 ###What are the best practices for commit messages?
 
@@ -15,16 +19,19 @@ You can also use the body to further explain the rationale for the changes and p
 
 ###What does the HEAD^ argument mean?
 
-`HEAD^` actually refers to the last commit. `HEAD` refers to the current commit and `HEAD~3`, `HEAD~4`, `HEAD~5` are the 3rd, 4th, and 5th commit respectively. Using these terminologies allow developers to easily revert back or look back on previous commits.
+`HEAD^` actually refers to the last commit. 
 
-What are the 3 stages of a git change and how do you move a file from one stage to the other?
+`HEAD` refers to the current commit and `HEAD~3`, `HEAD~4`, `HEAD~5` are the 3rd, 4th, and 5th commit respectively. Using these terminologies allow developers to easily revert back or look back on previous commits.
+
+###What are the 3 stages of a git change and how do you move a file from one stage to the other?
+
 The three stages of a git change are "working", "staged", and "commit". To move a file or directory into the working stage, simply choose the working directory to point git at it. You can check the status of the git changes so far at any point by entering "git status". 
 
-At the "working" stage, git tracks the directory and files that you are currently working on and modifying. To move files or folders into the "staged" stage of a git change, after you've made changes, enter "git add [file/folder]" to add the file/folder to be "staged". 
+At the "working" stage, git tracks the directory and files that you are currently working on and modifying. To move files or folders into the "staged" stage of a git change, after you've made changes, enter `git add [file/folder]` to add the file/folder to be "staged". 
 
 At the "staged" stage of a git change, git is tracking all the changes that are being primed for the next commit. 
 
-Finally at the "commit" stage, git tracks and saves all of the changes that were from the "staged" files and keeps them collected in a save point called a "commit" that can be undone and reviewed. To move a file into the "commit" stage, simply enter "git commit -m "[message]"" and git will save all the changes that were made from the "staged" stage into a commit.
+Finally at the "commit" stage, git tracks and saves all of the changes that were from the "staged" files and keeps them collected in a save point called a "commit" that can be undone and reviewed. To move a file into the "commit" stage, simply enter `git commit -m "[message]"` and git will save all the changes that were made from the "staged" stage into a commit.
 
 ###Write a handy cheatsheet of the commands you need to commit your changes?
 
