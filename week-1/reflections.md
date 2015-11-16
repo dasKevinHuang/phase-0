@@ -96,3 +96,24 @@ Executing "-rm" will remove/delete an existing file.
 
 Executing "-help" will make the shell display commands that it can execute. Executing "-help [command here]" will display an explanation of the command that you are inquiring about.
 
+# 1.4 Create, Fork, and Clone Repositories
+
+*If you were going to write instructions for a new person on how to create a new repo, fork a repo, and clone a repo, what would they be? Why would you fork a repository as opposed to create a new one?*
+
+**One way to create a new repo** is to go onto github.com, sign in, and click the "+" button on the top right to create "new repository". Through this menu, you will be able to create a new repo.
+
+**Another way is to create a new repository** by opening the Github desktop application (you have to download and install this) and clicking the "+" button will be on the left side. Then select the "Create" tab and name the new repo. This will create a new repo in your account.
+
+**To fork a repo**, you go to the repo you would like to fork from on github.com. Then you would click fork on the top right and name it to finish the fork process.
+
+**Forking a repo allows** you to create a copy of a repo on your own account on Github.com. This is important because it allows you to make changes and build on top of the fork in whatever way you would like without changing the original repo you forked the code from. Forking also allows for credit to be given to the original repo and developer from whom the original code was sourced from. Another special part of forking a repo is that you can even suggest and contribute changes to the original repo by making *pull requests*.
+
+**To clone a repo**, first you would go to your copy of the repo on your account on github.com. Then you would copy the URL under "clone URL". Then you go into the command line and change the working directory to wherever you would like the cloned repo to go locally on your computer with "-cd". Then type "git clone [cloneURL here]" and hit enter. This clone the repo onto your computer.
+
+**Another way to clone a repo** is to go onto the desktop Github application (you have to download this) and click the "+" button on the top left. From there, click the "Clone" tab and choose the repo you would like to clone onto your Github folder. This will also clone the repo onto your computer.
+
+*What struggles did you have setting up git and GitHub? What did you learn in the process?*
+
+Fortunately, I didn't have any trouble setting up git or Github! I learned how to create, fork and clone a repo with Github. I was happy to learn about the many ways that you can use Github to code collaboratively. I think it is interesting that there are so many ways to use Github (the desktop application, command line, and Github.com) and I think that's one of the ways that makes collaborating on it so useful and precise.
+
+I think forking repos is something that will be useful to do later on as I continue to learn to code so that I can learn from other developers and build on top of the code that they've written. Maybe I could even contribute to projects by making pull requests to contribute code eventually. I think it will be exciting to build programs with alongside teams of developers on Github, because we can work in unison without overriding or stepping over each other's work. Not only that, but we can comment on changes and look at how the code changes over time.
