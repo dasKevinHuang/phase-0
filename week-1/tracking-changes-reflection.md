@@ -1,10 +1,14 @@
 ###How does tracking and adding changes make developers' lives easier?
 
-Tracking and adding changes makes working on code easier for developers by making it convenient to save any changes made to work and allowing for changes to be undone	
-What is a commit?
-A commit is the submission of any change or changes, along with comments, timestamp, and the change(s) itself, to git. Commits can be thought of as a single collection of changes to anything in the repository - creating a new file, new folder, or renaming a file - if these actions are submitted together, they will live in the same commit in git automatically. 
+Tracking and adding changes makes working on code easier for developers by making it convenient to save any changes made to work and allowing for changes to be undone at any time. This process also makes it much easier for developers to review each others code and provide feedback to ensure that only working code is merged into the master repo.
 
-In addition to this, a commit can be reviewed in git and rolled back if necessary. If a commit is reverted, all changes that were in the commit are undone. Commits in version control make it easy for developers to review and understand work that was done.
+###What is a commit?
+
+A commit is the submission of any change or changes, along with comments, timestamp, and the change(s) itself, to git. Commits can be thought of as a single collection of changes to anything in the repository - creating a new file, new folder, or renaming a file. If these actions are submitted together, they will live in the same commit in the git repo automatically. 
+
+You can also think of a commit as a save point for the collection of changes.
+
+In addition to this, a commit can be reviewed in github and rolled back if necessary. If a commit is reverted, all changes that were in the commit are undone. Commits in version control make it easy for developers to review and understand work that was done.
 
 ###What are the best practices for commit messages?
 
