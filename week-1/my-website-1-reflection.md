@@ -1,6 +1,6 @@
 ###Paste a link to your [USERNAME].github.io repository.
 
-[dasKevinHuang.github.io](dasKevinHuang.github.io)
+[dasKevinHuang.github.io](https://dasKevinHuang.github.io)
 
 ###Explain how to create a repository on GitHub and clone the repository to your local computer to a non-technical person.
 
