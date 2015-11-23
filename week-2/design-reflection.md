@@ -1,16 +1,18 @@
 ![Kevin Huang's Site Map](imgs/site-map.png)
 ####What are the 6 Phases of Web Design?
 The six phases of web design are:
-1. Information Gathering
+1) Information Gathering
 During the first phase of web design, it is essential to gather as much information as you can about your personal aspirations and goals with this website. This phase can be accomplished by asking deep questions about the person or company that is behind the website (this might be yourself!). It's important to have this comprehensive understanding before the other phases of web design so that the web site can be built with direction.
 Some examples of questions that you might ask yourself to walk through this phase would be:
 
-`What is the purpose of this website?`
-`What goals do you wish to accomplish by building this website?`
-`Is there a specific person or group that can help you accomplish your goals?` or `Who is your target audience?`
-`What kind of information do you want to display to your target audience?`
+```
+What is the purpose of this website?
+What goals do you wish to accomplish by building this website?
+Is there a specific person or group that can help you accomplish your goals? or Who is your target audience?
+What kind of information do you want to display to your target audience?
+```
 
-2. Planning
+2) Planning
 
 The second phase of web design is where you will plan the structure of your website using a site map and decide what kind of technologies you will use on your website. This phase is important so that you will have a clear understanding of the flow and structure of the website before building it (so that you won't just wing it!).
 
@@ -18,24 +20,24 @@ At this stage, you will have to reflect on the purposes of your website and cons
 
 In seeking out more sophisticated features and goals, such as processing user data or storing files, the technological part of planning will be essential.
 
-3. Design
+3) Design
 
 At the third phase of web design, it is important to begin figuring out the "look and feel" of the website. This phase will reflect on the cumulative knowledge that you have gained thus far in order to take every factor important to design into consideration. This phase might be a bit more abstract and subjective than the other phases, since you will have to consider what sort of design might look best for your target audience and convey the ability to accomplish its intended goals.
 
 For example, when creating a security or privacy oriented website, it will be important to consider what privacy-oriented users would consider as good privacy-first design.
 
 
-4. Development
+4) Development
 
 At the fourth stage of web design, the website itself will be built. In this stage, the site will be created using the prototype created in the design stage to built a complete website that will reflect the plans and goals of phase 1 and 2.
 
 Development typically is done with the homepage first. Then a template for the rest of the interior pages will be created so that the rest of the pages for the site can be easily created by following this template. This ensures that the site follows the same look and feel that was intended for each page.
 
-5. Testing and Delivery
+5) Testing and Delivery
 
 The fifth stage of web design is the point at which you will test the website and then deliver it to be available to your intended audience. Testing is essential for the website to perform as intended for different browsers and different devices. Even small features and pieces of the website that might seem small should be tested to ensure that the website will perform the necessary features for your audience when the time comes. The final piece of this phase is to deliver the website by uploading it to the actual server that hosts it.
 
-6. Maintenance
+6) Maintenance
 
 The last stage of web design is maintenance. This phase should become a continually evolving process of building new content and offering new features for visitors. As far as how much maintenance is needed for a website is up to you as the developer to reflect on what is necessary to accomplish your goals from phase 1.
 
