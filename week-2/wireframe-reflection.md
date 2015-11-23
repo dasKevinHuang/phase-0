@@ -1,3 +1,6 @@
+![index wireframe](imgs/wireframe-index.png)
+![blog wireframe](imgs/wireframe-blog-index.png)
+
 ####What is a wireframe?
 
 A wireframe serves as an initial prototype for how you would structure a page on your website. It allows developers to work on the visual organization of a website before writing code.
