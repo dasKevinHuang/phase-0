@@ -3,6 +3,7 @@
 The six phases of web design are:
 
 1) Information Gathering
+
 During the first phase of web design, it is essential to gather as much information as you can about your personal aspirations and goals with this website. This phase can be accomplished by asking deep questions about the person or company that is behind the website (this might be yourself!). It's important to have this comprehensive understanding before the other phases of web design so that the web site can be built with direction.
 Some examples of questions that you might ask yourself to walk through this phase would be:
 
