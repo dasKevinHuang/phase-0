@@ -1,3 +1,60 @@
+/*
+Reflection by Kevin Huang:
+# Please note that the HTML file linked to this CSS file is located at https://github.com/dasKevinHuang/phase-0/blob/master/week-2/my-berkshire-site-css.html
+
+####What is important to know when linking an external file (like a stylesheet) to an HTML file?
+It's important to properly link your external file properly in the HTML file code.
+For this, you will have to ensure that the directory and location that you link actually holds the CSS file.
+It might be easier to have a CSS file in the same directory as a HTML file so that there isn't too much confusion as far as the link location goes.
+If the CSS file is in another folder, you have to be very careful with your directory address in relation to where the HTML file.
+Since the HTML file is in a different directory than the directory that holds the CSS file to, we had to be especially mindful of how many parent directories there are above the HTML file, and then the child directories to find the appropriate CSS file.
+
+####What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+The CSS `display` property was quite a useful for this particular site since it worked well with creating line breaks through CSS.
+It helped especially with properly spacing most of the page.
+The coolest trick I think is the ability to combine different classes that you already created to form the right positioning that might use a combination of previous CSS you've already used elsewhere on the page.
+To combine classes, you simply add a space between the names of classes in the HTML class element.
+
+It was actually pretty hard to get the site to the exact specifications we wanted. 
+This was because of how exact CSS has to be in order to be a certain way. Nevertheless, it was a great learning experience to practice CSS & HTML side-by-side.
+
+####What CSS did you use to modify the element style (like size, color, etc.)
+
+A few of the CSS properties I used to modify element style were:
+    color 
+    background-color
+    float
+    width
+    height
+    font-size
+    font-weight
+    text-align
+    line-break
+    display
+    margin-left
+    margin-right
+    margin-top
+    margin-bottom
+    background
+    padding-bottom
+    
+####Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+Yes! I did modify the HTML to include classes and ids. I used both classes and ids on different HTML elements. 
+One trick is to remember that ID's are ONLY USED ONCE on a page, and classes can be re-used on multiple page pieces. One cool trick about classes: They can even be combined with a space between class names!
+Another cool thing about ID's are that they can also be used as navigational links later on using the # symbol added to the URL.
+
+We chose to use classes for formmating values that were going to have to be repeated throughout the page, such as line breaks and different text styles.
+We then used ID's for sections of the page that needed section-wide formatting. Pretty cool stuff! It was really nice to see classes come together when we were able to combine different classes for complex formatting requirements.
+
+####When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+When I looked over to the actual code base, I was surprised to see that the code they used did not really follow best practices.
+Most of the Berksire Hathaway site actually uses a lot of obsolete HTML formatting elements, such as align, center, and size.
+The purposes of these elements should actually be fulfilled by CSS to be a fully modern webpage.
+I think for these reasons, our site has a much cleaner code base. 
+It's almost as if the Berksire Hathaway site hasn't been changed since the 90's!
+
+*/
+
 html { 
     color: #000080;
     background-color: #ffffff 
