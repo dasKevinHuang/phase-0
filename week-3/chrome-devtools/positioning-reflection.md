@@ -1,11 +1,20 @@
+####Excercise 1 - Changes the Colors
 ![Excercise 1 - Changes the Colors](imgs/Excercise1-ChangeTheColors.png "Excercise 1 - Changes the Colors")
+####Excercise 2 - Column
 ![Excercise 2 - Column](imgs/Excercise2-Column.png "Excercise 2 - Column")
+####Excercise 3 - Rows
 ![Excercise 3 - Rows](imgs/Excercise3-Rows.png "Excercise 3 - Rows")
+####Excercise 4 - Equidistance
 ![Excercise 4 - Equidistance](imgs/Excercise4-Equidistance.png "Excercise 4 - Equidistance")
+####Excercise 5 - Squares
 ![Excercise 5 - Squares](imgs/Excercise5-Squares.png "Excercise 5 - Squares")
+####Excercise 6 - Footer
 ![Excercise 6 - Footer](imgs/Excercise6-Footer.png "Excercise 6 - Footer")
+####Excercise 7 - Header
 ![Excercise 7 - Header](imgs/Excercise7-Header.png "Excercise 7 - Header")
+####Excercise 8 - Sidebar
 ![Excercise 8 - Sidebar](imgs/Excercise8-Sidebar.png "Excercise 8 - Sidebar")
+####Excercise 9 - Get Creative
 ![Excercise 9 - Get Creative](imgs/Excercise9-GetCreative.png "Excercise 9 - Get Creative")
 
 ####How can you use Chrome's DevTools inspector to help you format or position elements?
@@ -58,6 +67,7 @@ B - Border edge (- represents a solid border style)
 P - Padding edge
 C - Content edge
 
+```
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 M                               M
 M  BBBBBBBBBBBBBBBBBBBBBBBBBBB  M
@@ -73,6 +83,7 @@ M  B-------------------------B  M
 M  BBBBBBBBBBBBBBBBBBBBBBBBBBB  M
 M                               M
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+```
 
 `padding` refers to an area of space around the content that extends out to its border. You could think of padding as space within the box that pushes or extends the content internally.
 
