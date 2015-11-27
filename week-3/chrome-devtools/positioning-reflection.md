@@ -62,12 +62,12 @@ In the CSS box model of HTML elements, each element has its own margin, border, 
 
 Here is a text visualization of the box model that you can use to understand padding, border, and margin a bit better.
 
+```
 M - Margin edge
 B - Border edge (- represents a solid border style)
 P - Padding edge
 C - Content edge
 
-```
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 M                               M
 M  BBBBBBBBBBBBBBBBBBBBBBBBBBB  M
