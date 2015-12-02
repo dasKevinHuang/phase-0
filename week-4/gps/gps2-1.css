@@ -1,0 +1,36 @@
+* {
+  font-family: "proxima-nova", sans-serif;
+}
+
+header {
+  background-color: red;
+  margin: 5px 0px 5px 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  font-family: "proxima-nova", sans-serif;
+}
+
+.column-1 {
+  background-color: lightblue;
+  float: left;
+  width: 45%;
+  padding-left: 11px;
+  padding-right: 11px;
+  margin-left: 3px;
+}
+
+.column-2 {
+  background-color: lightgreen;
+  float: right;
+  width: 45%;
+  padding-left: 11px;
+  padding-right: 11px;
+  margin-right: 3px;
+}
+
+footer {
+  clear: both;
+  background-color: orange;
+  margin: 5px 0px 5px 5px;
+  padding: 3px 15px 3px 15px;
+}
