@@ -2,12 +2,12 @@
 
 ###Challenge 4.2 Navigation
 
-*[Release 1: Summarization Questions](#release-1-summarization-questions)
-*[Release 2: Mini-Challenges](#release-2-mini-challenges)
-*[Challenge 4.2.1: Defining Variables](https://github.com/dasKevinHuang/phase-0/blob/master/week-4/defining-variables.rb)
-*[Challenge 4.2.2: Simple String Methods](https://github.com/dasKevinHuang/phase-0/blob/master/week-4/simple-string.rb)
-*[Challenge 4.2.3: Local Variables and Basic Arithmetical Expressions](https://github.com/dasKevinHuang/phase-0/blob/master/week-4/basic-math.rb)
-*[Release 7: Reflection](#release-7-reflection)
+* [Release 1: Summarization Questions](#release-1-summarization-questions)
+* [Release 2: Mini-Challenges](#release-2-mini-challenges)
+* [Challenge 4.2.1: Defining Variables](https://github.com/dasKevinHuang/phase-0/blob/master/week-4/defining-variables.rb)
+* [Challenge 4.2.2: Simple String Methods](https://github.com/dasKevinHuang/phase-0/blob/master/week-4/simple-string.rb)
+* [Challenge 4.2.3: Local Variables and Basic Arithmetical Expressions](https://github.com/dasKevinHuang/phase-0/blob/master/week-4/basic-math.rb)
+* [Release 7: Reflection](#release-7-reflection)
 
 ### Release 1: Summarization Questions
 
