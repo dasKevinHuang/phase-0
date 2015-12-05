@@ -1,6 +1,6 @@
 # Factorial
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge with Sabri Helal.
 
 
 # Your Solution Below
