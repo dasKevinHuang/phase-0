@@ -173,7 +173,7 @@
 
 # --- error -------------------------------------------------------
 
-require_relative "cartmans_essay.md"
+#require_relative "cartmans_essay.md"
 
 # 1. What is the line number where the error occurs?
 # => The error is on line 176.
