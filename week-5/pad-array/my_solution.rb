@@ -2,7 +2,7 @@
 
 # I worked on this challenge with Jordan Fox
 
-# I spent [] hours on this challenge.
+# I spent 1 hours on this challenge.
 
 
 # Complete each step below according to the challenge directions and
@@ -78,6 +78,19 @@ end
 # => We were able to successfully circumvent this challenge by figuring out a solution to copying array contents to another array.
 #
 ####Was your initial solution successful at passing the tests? If so, why do you think that is? If not, what were the errors you encountered and what did you do to resolve them?
+#
+# => Yes our initial solution was successful at passing the tests. 
+#
 ####When you refactored, did you find any existing methods in Ruby to clean up your code?
+#
+# => We found that concat cleaned up the padding method quite a bit. We also realized that we could use pad! inside pad to make the methods cleaner. #clone was also another one that made copying arrays easier.
+#
 ####How readable is your solution? Did you and your pair choose descriptive variable names?
+#
+# => We think our solution - both of them, the long-form and the refactored solutions - are quite readable. We chose to use temp_array as our variable name for the pad method to make it easy to follow which array was being altered.
+#
 ####What is the difference between destructive and non-destructive methods in your own words?
+#
+# => Destructive methods change an object that is being passed through the method as an argument. This causes the object to be different after the method is finished.
+# => Whereas, non-destructive methods do not alter any objects being passed through as an argument.
+#
