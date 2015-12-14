@@ -76,6 +76,9 @@ end
 # => # .each is a method that allows you to iterate over each key-value pair within a hash.
 # => I used this method to iterate over each pair inside the hash - since it allows you to address the hash value directly, you can use this method to destructively change the value of the original hash.
 
+# => For both iterators, I used the shortened block notation of {|variables| (THIS) } to substitute for the full do/end notation.
+# => Since these methods were fairly short, this notation allows the methods to be read in one line easily (along with the if/else notation I explain below).
+
 # => I also used the if/else flow control notation of: 
 # => (IF conditional) ? (THIS) : (ELSE THIS)
 # => I decided to use this notation to make the overall methods easier to write and understand, since it allows us to not have to push the methods down several lines of code needed to write the whole if/else block.
