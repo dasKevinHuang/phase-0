@@ -76,6 +76,10 @@ end
 # => # .each is a method that allows you to iterate over each key-value pair within a hash.
 # => I used this method to iterate over each pair inside the hash - since it allows you to address the hash value directly, you can use this method to destructively change the value of the original hash.
 
+# => I also used the if/else flow control notation of: 
+# => (IF conditional) ? (THIS) : (ELSE THIS)
+# => I decided to use this notation to make the overall methods easier to write and understand, since it allows us to not have to push the methods down several lines of code needed to write the whole if/else block.
+# => Overall, I think the combination of these four concepts make for a clean one-line definition for each method.
 
 # Person 3 - Katie Meyer
 # ARRAY
@@ -158,6 +162,10 @@ end
 # => Secondly, iterator methods like .map! and .each were essential in both array and hash modification methods to be able to iterate destructively over each data structure.
 # => Since when you use .each over an array, it acts as if it creates a new array, .map! has to be used instead to change the original array itself.
 # => Then, since .each allows you to refer to pair values within a hash, you can actually use .each to change the values in a hash directly when iterated.
+
+# => I also used the if/else flow control notation of: 
+# => (IF conditional) ? (THIS) : (ELSE THIS)
+# => I decided to use this notation to make the overall methods easier to write and understand, since it allows us to not have to push the methods down several lines of code needed to write the whole if/else block.
 
 # => Overall, when combined with flow control structures (mainly if/else), .is_a?, and .map!/.each make for the right mix of methods for the correct modification method definition.
 
