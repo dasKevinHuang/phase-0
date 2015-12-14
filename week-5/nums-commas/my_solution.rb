@@ -18,9 +18,10 @@
 #
 # What are the steps needed to solve the problem?
 #
-# => Create a new array from the number given, by converting the number value to a string, REVERSE the string, then SPLIT each digit into an array element.
+# => CREATE a new ARRAY from the number given, by converting the number value to a string, REVERSE the string, and then SPLIT each digit into an array element.
 # => FOR each element of the new array:
-# => IF the (index + 1) % 3 gives zero remainders AND the array size is greater than 3 AND the index is not equal to 0, THEN return a comma (",") and the element value
+# => IF the index is divisible by 3 AND the array size is greater than 3 AND the index is not equal to 0,
+# => THEN return a comma (",") and the element value
 # => ELSE return the element
 # => REVERSE the array and JOIN the array to a string. RETURN the string.
 
