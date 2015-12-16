@@ -12,7 +12,9 @@
 # Output: Number of sides of a die or a random number
 # Steps: 
 # Check that there is at least 1 side to the dice, if there is less than 1 side, give an error message.
-#
+# Make an instance variable of sides equal to the number of sides of the dice.
+# Sides Method:  Return the sides instance variable in the sides method.
+# Roll Method: Return a random number less than or equal to the number of sides.
 
 
 # 1. Initial Solution
