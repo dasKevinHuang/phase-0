@@ -1,8 +1,8 @@
 # Class Warfare, Validate a Credit Card Number
+# By Kevin Huang
 
-
-# I worked on this challenge [by myself, with: ].
-# I spent [#] hours on this challenge.
+# I worked on this challenge with Todd Seller
+# I spent [2] hours on this challenge.
 
 # Pseudocode
 
@@ -68,8 +68,6 @@
 ### end
 
 
-
-
 # Refactored Solution
 class CreditCard
 
@@ -96,9 +94,22 @@ class CreditCard
 end
 
 
-
-
-
-
-
 # Reflection
+### What was the most difficult part of this challenge for you and your pair?
+#
+# => I think the most difficult part of this challenge for me and my pair was figuring out the logic of the program itself.
+# => There were many different approaches we could have taken, and we discussed at length, which logical processes would best serve the purposes of this challenge.
+#
+#
+### What new methods did you find to help you when you refactored?
+#
+# => We actually did not have to find any new methods to help us refactor. Since our logic was very sound with our initial solution,
+# => we simply had to rewrite most of the code in a cleaner notation.
+#
+#
+### What concepts or learnings were you able to solidify in this challenge?
+#
+# => I think that we were able to strengthen our ability to write pseudocode and think about writing code more logically.
+# => Since this challenge was focused on using a specific step-by-step process to validate the numbers, logic was a central part to finishing this challenge.
+# => Overall, I think we did a great job in tackling this challenge!
+#
