@@ -1,10 +1,9 @@
 // JavaScript Variables and Objects
 
-// I paired [by myself, with:] on this challenge.
+// I worked on this challenge by myself.
 
 // __________________________________________
 // Write your code below.
-
 
 
 
