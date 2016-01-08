@@ -1,7 +1,11 @@
 /*
 Gradebook from Names and Scores
-I worked on this challenge [by myself, with:]
-This challenge took me [#] hours.
+
+Written by Kevin Huang
+
+I worked on this challenge with Todd Seller
+This challenge took me 1 hours.
+
 You will work with the following two variables.  The first, students, holds the names of four students.
 The second, scores, holds groups of test scores.  The relative positions of elements within the two
 variables match (i.e., 'Joseph' is the first element in students; his scores are the first value in scores.).
@@ -23,9 +27,28 @@ var scores = [ [80, 70, 70, 100],
 // __________________________________________
 // Write your code below.
 
+var gradebook = new Object();
 
+for(var i = 0; i < students.length; i++) {
+  gradebook[students[i]] = new Object();
+  gradebook[students[i]].testScores = scores[i];
+}
 
+gradebook.addScore = function (name, score) {
+  return gradebook[name].testScores.push(score);
+}
 
+gradebook.getAverage = function(name){
+  return average(gradebook[name].testScores);
+}
+
+function average(intArray){
+  var sum = 0;
+  for (var i = 0; i < intArray.length; i++){
+    sum += intArray[i];
+  }
+  return (sum / intArray.length);
+}
 
 
 
@@ -33,7 +56,25 @@ var scores = [ [80, 70, 70, 100],
 // __________________________________________
 // Refactored Solution
 
+var gradebook = new Object();
 
+for(var i = 0; i < students.length; i++) {
+  gradebook[students[i]] = new Object();
+  gradebook[students[i]].testScores = scores[i];
+}
+
+gradebook.addScore = function (name, score) {
+  return gradebook[name].testScores.push(score);
+}
+
+gradebook.getAverage = function(name){
+  return average(gradebook[name].testScores);
+}
+
+function average(intArray){
+  var sum = intArray.reduce(function(a, b){return a + b;})
+  return (sum / intArray.length);
+}
 
 
 
@@ -45,10 +86,22 @@ var scores = [ [80, 70, 70, 100],
 
 
 
-
-
-
-
+//What did you learn about adding functions to objects?
+//
+//  I learned that adding functions to objects was as simple as defining the value of a property as a function object.
+//  I think this challenge really solidified the understanding that functions in JavaScripts are objects too - such that other objects can be defined as function objects.  
+//
+//How did you iterate over nested arrays in JavaScript?
+//
+//  We used a for loop to iterate over the nested arrays in JavaScript. For the refactored solution, we figured out a way to do it using the reduce method.
+//
+//Were there any new methods you were able to incorporate? If so, what were they and how did they work?
+//
+//  We were able to incorporate the reduce method into our refactored solution. Reduce is fairly simple, though its syntax might seem intimidating at first.
+//  Reduce works as such - reduce(function(previousValue, currentValue, currentIndex, array)
+//  We used the previousValue and currentValue arguments of the reduce method, and structured as such var sum = intArray.reduce(function(a, b){return a + b;})
+//  So that it will iterate over each element of the array, and add it to the previous value, essentially acting like the for loop we had in the initial solution.
+//
 
 
 // __________________________________________
