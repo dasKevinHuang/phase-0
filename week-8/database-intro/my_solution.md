@@ -2,14 +2,17 @@
 #### Reflection written by Kevin Huang
 #### Challenge 1.
 Select all data for all states.
+
 `SELECT * FROM states;`
 
 #### Challenge 2.
 Select all data for all regions.
+
 `SELECT * FROM regions;`
 
 #### Challenge 3.
 Select the `state_name` and `population` for all states.
+
 `SELECT state_name, population FROM states;`
 
 #### Challenge 4.
