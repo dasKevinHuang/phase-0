@@ -1,61 +1,61 @@
 ### 8.4 Introduction to Database Schemas and SQL
 #### Reflection written by Kevin Huang
 #### Challenge 1.
-
+Select all data for all states.
 `SELECT * FROM states;`
 
 #### Challenge 2.
-
+Select all data for all regions.
 `SELECT * FROM regions;`
 
 #### Challenge 3.
-
+Select the `state_name` and `population` for all states.
 `SELECT state_name, population FROM states;`
 
 #### Challenge 4.
-
+Select the `state_name` and `population` for all states ordered by `population`. The state with the highest population should be at the top.
 ```
 SELECT  state_name, population FROM states 
 ORDER BY population DESC;
 ```
 
 #### Challenge 5.
-
+Select the `state_name` for the states in region 7.
 ```
 SELECT state_name FROM states 
 WHERE region_id = 7;
 ```
 
 #### Challenge 6.
-
+Select the `state_name` and `population_density` for states with a population density over 50 ordered from least to most dense.
 ```
 SELECT state_name, population_density FROM states 
 WHERE population_density > 50  ORDER BY population_density;
 ```
 
 #### Challenge 7.
-
+Select the `state_name` for states with a population between 1 million and 1.5 million people.
 ```
 SELECT state_name from states
 WHERE population < 1500000 AND population > 1000000;
 ```
 
 #### Challenge 8.
-
+Select the `state_name` and `region_id` for states ordered by region in ascending order.
 ```
 SELECT state_name, region_id from states
 ORDER BY region_id ASC;
 ```
 
 #### Challenge 9. 
-
+Select the `region_name` for the regions with "Central" in the name.
 ```
 SELECT region_name FROM regions
 WHERE region_name LIKE "%Central%";
 ```
 
 #### Challenge 10.
-
+Select the `region_name` and the `state_name` for all states and regions in ascending order by `region_id`. Refer to the region by name. (This will involve joining the tables).
 ```
 SELECT region_name, state_name
 FROM states, regions
