@@ -2,15 +2,15 @@
 
 ####Reflection written by Kevin Huang
 
-#One-to-One Relationships
+####One-to-One Relationships
 
 ![one-to-one](imgs/one-to-one.png)
 
-#One-to-Many Relationships
+####One-to-Many Relationships
 
 ![schema](database-intro/schema.png)
 
-#Many-to-Many Relationships (2 examples)
+####Many-to-Many Relationships (2 examples)
 
 ![many-to-many](imgs/many-to-many.png)
 
