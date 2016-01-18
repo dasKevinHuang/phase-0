@@ -224,5 +224,14 @@ p local.email_list
 # Reflection
 
 #What concepts did you review in this challenge?
+#
+# I reviewed classes in this challenge. I also learned quite a bit about inheritance and the date class.
+#
 #What is still confusing to you about Ruby?
+#
+# The super method.
+#
 #What are you going to study to get more prepared for Phase 1?
+#
+# I'm going to study a bit more about inheritance and practice my ruby.
+#
